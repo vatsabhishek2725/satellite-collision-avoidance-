@@ -1,0 +1,115 @@
+
+====================================================================================================
+       ORBITAL COLLISION FORECAST � EKF ESTIMATE + TWO-BODY PROPAGATION
+====================================================================================================
+
+Simulation duration : 600.0 s
+Propagation step    : 2.0 s
+Forecast checkpoints: 41
+Collision radius    : 10.0 m
+
+[1] FORWARD PREDICTIONS
+----------------------------------------------------------------------------------------------------
+ Epoch (s) | Horizon (s) |    TCA (s) |     Miss (m) |   Sigma (m) | Screening                                    
+----------------------------------------------------------------------------------------------------
+     200.0 |       400.0 |      348.0 |       78.075 |     633.397 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     210.0 |       390.0 |      288.0 |      121.350 |     209.976 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     220.0 |       380.0 |      316.0 |       41.275 |     216.068 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     230.0 |       370.0 |      346.0 |       91.361 |     213.585 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     240.0 |       360.0 |      360.0 |      189.085 |     199.834 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     250.0 |       350.0 |      350.0 |       98.833 |     168.117 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     260.0 |       340.0 |      332.0 |      109.527 |     132.037 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     270.0 |       330.0 |      330.0 |      158.099 |     115.368 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     280.0 |       320.0 |      320.0 |      172.411 |      95.522 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     290.0 |       310.0 |      310.0 |      157.050 |      81.380 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     300.0 |       300.0 |      300.0 |       96.806 |      69.944 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     310.0 |       290.0 |      290.0 |      130.819 |      60.867 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     320.0 |       280.0 |      268.0 |       96.348 |      51.118 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     330.0 |       270.0 |      252.0 |       61.089 |      44.218 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     340.0 |       260.0 |      222.0 |       70.378 |      36.803 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     350.0 |       250.0 |      214.0 |       67.292 |      33.034 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     360.0 |       240.0 |      220.0 |       65.947 |      31.250 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     370.0 |       230.0 |      202.0 |       84.436 |      27.483 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     380.0 |       220.0 |      196.0 |       93.620 |      25.256 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     390.0 |       210.0 |      186.0 |       95.963 |      22.985 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     400.0 |       200.0 |      172.0 |       94.941 |      20.711 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     410.0 |       190.0 |      160.0 |       89.793 |      18.847 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     420.0 |       180.0 |      152.0 |       88.168 |      17.448 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     430.0 |       170.0 |      138.0 |       88.920 |      15.858 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     440.0 |       160.0 |      134.0 |       91.929 |      14.989 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     450.0 |       150.0 |      124.0 |       90.594 |      13.898 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     460.0 |       140.0 |      114.0 |       83.365 |      12.911 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     470.0 |       130.0 |      104.0 |       80.645 |      12.023 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     480.0 |       120.0 |       96.0 |       78.968 |      11.305 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     490.0 |       110.0 |       86.0 |       72.993 |      10.571 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     500.0 |       100.0 |       74.0 |       72.869 |       9.826 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     510.0 |        90.0 |       62.0 |       71.631 |       9.148 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     520.0 |        80.0 |       52.0 |       72.619 |       8.599 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     530.0 |        70.0 |       38.0 |       72.449 |       7.967 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     540.0 |        60.0 |       26.0 |       74.863 |       7.453 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     550.0 |        50.0 |       18.0 |       73.288 |       7.095 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     560.0 |        40.0 |        8.0 |       76.972 |       6.710 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     570.0 |        30.0 |        0.0 |       78.539 |       6.408 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     580.0 |        20.0 |        0.0 |       78.635 |       6.326 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     590.0 |        10.0 |        0.0 |       81.519 |       6.253 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     600.0 |         0.0 |        0.0 |       90.651 |       6.186 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+
+[2] OFFLINE EVALUATION AGAINST ORBITZOO
+----------------------------------------------------------------------------------------------------
+ Epoch (s) | Pred TCA (s) | Actual TCA (s) | Pred Miss (m) | Actual Miss (m) | TCA Error (s)
+----------------------------------------------------------------------------------------------------
+     200.0 |        348.0 |          366.0 |        78.075 |         76.748 |          18.0
+     210.0 |        288.0 |          356.0 |       121.350 |         76.748 |          68.0
+     220.0 |        316.0 |          346.0 |        41.275 |         76.748 |          30.0
+     230.0 |        346.0 |          336.0 |        91.361 |         76.748 |          10.0
+     240.0 |        360.0 |          326.0 |       189.085 |         76.748 |          34.0
+     250.0 |        350.0 |          316.0 |        98.833 |         76.748 |          34.0
+     260.0 |        332.0 |          306.0 |       109.527 |         76.748 |          26.0
+     270.0 |        330.0 |          296.0 |       158.099 |         76.748 |          34.0
+     280.0 |        320.0 |          286.0 |       172.411 |         76.748 |          34.0
+     290.0 |        310.0 |          276.0 |       157.050 |         76.748 |          34.0
+     300.0 |        300.0 |          266.0 |        96.806 |         76.748 |          34.0
+     310.0 |        290.0 |          256.0 |       130.819 |         76.748 |          34.0
+     320.0 |        268.0 |          246.0 |        96.348 |         76.748 |          22.0
+     330.0 |        252.0 |          236.0 |        61.089 |         76.748 |          16.0
+     340.0 |        222.0 |          226.0 |        70.378 |         76.748 |           4.0
+     350.0 |        214.0 |          216.0 |        67.292 |         76.748 |           2.0
+     360.0 |        220.0 |          206.0 |        65.947 |         76.748 |          14.0
+     370.0 |        202.0 |          196.0 |        84.436 |         76.748 |           6.0
+     380.0 |        196.0 |          186.0 |        93.620 |         76.748 |          10.0
+     390.0 |        186.0 |          176.0 |        95.963 |         76.748 |          10.0
+     400.0 |        172.0 |          166.0 |        94.941 |         76.748 |           6.0
+     410.0 |        160.0 |          156.0 |        89.793 |         76.748 |           4.0
+     420.0 |        152.0 |          146.0 |        88.168 |         76.748 |           6.0
+     430.0 |        138.0 |          136.0 |        88.920 |         76.748 |           2.0
+     440.0 |        134.0 |          126.0 |        91.929 |         76.748 |           8.0
+     450.0 |        124.0 |          116.0 |        90.594 |         76.748 |           8.0
+     460.0 |        114.0 |          106.0 |        83.365 |         76.748 |           8.0
+     470.0 |        104.0 |           96.0 |        80.645 |         76.748 |           8.0
+     480.0 |         96.0 |           86.0 |        78.968 |         76.748 |          10.0
+     490.0 |         86.0 |           76.0 |        72.993 |         76.748 |          10.0
+     500.0 |         74.0 |           66.0 |        72.869 |         76.748 |           8.0
+     510.0 |         62.0 |           56.0 |        71.631 |         76.748 |           6.0
+     520.0 |         52.0 |           46.0 |        72.619 |         76.748 |           6.0
+     530.0 |         38.0 |           36.0 |        72.449 |         76.748 |           2.0
+     540.0 |         26.0 |           26.0 |        74.863 |         76.748 |           0.0
+     550.0 |         18.0 |           16.0 |        73.288 |         76.748 |           2.0
+     560.0 |          8.0 |            6.0 |        76.972 |         76.748 |           2.0
+     570.0 |          0.0 |            0.0 |        78.539 |         76.956 |           0.0
+     580.0 |          0.0 |            0.0 |        78.635 |         79.810 |           0.0
+     590.0 |          0.0 |            0.0 |        81.519 |         85.689 |           0.0
+     600.0 |          0.0 |            0.0 |        90.651 |         94.029 |           0.0
+
+[3] AGGREGATED OFFLINE ERRORS
+----------------------------------------------------------------------------------------------------
+  Evaluation start time    : 200.0 s
+  Evaluated checkpoints    : 41
+  Mean absolute TCA error : 13.902 s
+  Mean absolute miss error: 20.341 m
+
+====================================================================================================
+NOTE: Screening is not a formal collision probability.
+Ground truth is used only for offline evaluation.
+====================================================================================================
+
+--- STDERR ---

@@ -1,0 +1,77 @@
+
+[7] COLLISION-PREDICTOR DATA EXPORT
+------------------------------------------------------------------------
+  Output file               : C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T131609Z\truth_informed_seed_7\ekf_collision_input.npz
+  Spacecraft state shape    : (6,)
+  Debris estimate shape     : (6,)
+  EKF covariance shape      : (6, 6)
+  Ground truth exported     : No
+
+[8] ORBITAL FORECAST HISTORY
+------------------------------------------------------------------------
+  EKF history file          : C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T131609Z\truth_informed_seed_7\ekf_forecast_history.npz
+  Offline truth file        : C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T131609Z\truth_informed_seed_7\collision_forecast_truth.npz
+  EKF forecast checkpoints : 61
+  Ground-truth checkpoints : 301
+  Ground truth used by EKF predictor: No
+
+========================================================================
+             ORBITAL EXTENDED KALMAN FILTER REPORT
+========================================================================
+
+[1] MODEL CONFIGURATION
+------------------------------------------------------------------------
+  Orbital model              : Earth two-body gravity
+  Numerical integrator       : RK4
+  Simulation duration        : 600.0 s
+  Dynamics time step         : 2.0 s
+  Sensor interval            : 10.0 s
+  Measurement noise std      : 20.0 m/coordinate
+  Random seed                : 7
+  Initialization mode       : truth-informed
+  Initial velocity std      : 0.000100 m/s
+  Acceleration noise std    : 0.000000 m/s^2
+
+[2] EVALUATION BOOKKEEPING
+------------------------------------------------------------------------
+  Evaluation interval        : 2.0 s
+  Evaluation checkpoints     : 301
+  Initializing measurements  : 1
+  Kalman measurement updates : 60
+  NIS samples                : 60
+  Evaluation includes predictions between measurements.
+
+[3] ESTIMATION ACCURACY � ALL TIMESTEPS
+------------------------------------------------------------------------
+  3D position RMSE           : 11.036 m
+  3D velocity RMSE           : 0.003149 m/s
+
+[4] UNCERTAINTY VALIDATION
+------------------------------------------------------------------------
+  Mean NIS                   : 2.265
+  Reference for 3D measurement: approximately 3.0
+  Coordinate 1-sigma coverage : 32.9%
+  Coordinate 2-sigma coverage : 73.3%
+  Velocity 1-sigma coverage   : 34.4%
+  Velocity 2-sigma coverage   : 89.3%
+
+[5] FINAL STATE ESTIMATE
+------------------------------------------------------------------------
+  Debris position (m):
+  [ 6.070e+05  7.855e+06 -1.855e+00]
+  Debris velocity (m/s):
+  [ 7.091818e+03 -5.497579e+02  1.009563e-03]
+
+[6] IMPORTANT LIMITATIONS
+------------------------------------------------------------------------
+  The filter assumes two-body Earth gravity.
+  OrbitZoo may include dynamics not represented in this model.
+  Process noise is a tunable approximation.
+  Ground truth is used for sensor simulation and offline evaluation.
+  NIS is calculated only for actual Kalman measurement updates.
+  Coverage checkpoints are temporally correlated.
+  Initial relative velocity is truth-informed in this experiment.
+  This experiment alone does not establish filter consistency.
+========================================================================
+
+--- STDERR ---

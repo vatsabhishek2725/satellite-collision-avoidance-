@@ -1,0 +1,218 @@
+{
+  "configuration": {
+    "seeds": [
+      7,
+      21,
+      42,
+      99,
+      123
+    ],
+    "modes": [
+      "truth-informed",
+      "sensor-only"
+    ],
+    "sensor_only_warmup_seconds": 200.0,
+    "common_evaluation_start_seconds": 200.0,
+    "position_measurement_std_m": 20.0,
+    "dt_seconds": 2.0,
+    "sensor_interval_seconds": 10.0
+  },
+  "records": [
+    {
+      "mode": "truth-informed",
+      "seed": 7,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\truth_informed_seed_7",
+      "position_rmse_m": 11.036,
+      "velocity_rmse_mps": 0.003149,
+      "mean_nis": 2.265,
+      "tca_mae_s": 2.049,
+      "miss_mae_m": 7.667,
+      "runtime_seconds": 30.10854660000041
+    },
+    {
+      "mode": "truth-informed",
+      "seed": 21,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\truth_informed_seed_21",
+      "position_rmse_m": 9.252,
+      "velocity_rmse_mps": 0.0011,
+      "mean_nis": 2.485,
+      "tca_mae_s": 1.268,
+      "miss_mae_m": 1.315,
+      "runtime_seconds": 30.314721499999905
+    },
+    {
+      "mode": "truth-informed",
+      "seed": 42,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\truth_informed_seed_42",
+      "position_rmse_m": 7.196,
+      "velocity_rmse_mps": 0.00154,
+      "mean_nis": 2.272,
+      "tca_mae_s": 1.415,
+      "miss_mae_m": 0.87,
+      "runtime_seconds": 32.483180000000175
+    },
+    {
+      "mode": "truth-informed",
+      "seed": 99,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\truth_informed_seed_99",
+      "position_rmse_m": 8.963,
+      "velocity_rmse_mps": 0.002007,
+      "mean_nis": 2.789,
+      "tca_mae_s": 0.683,
+      "miss_mae_m": 2.126,
+      "runtime_seconds": 41.331714799999645
+    },
+    {
+      "mode": "truth-informed",
+      "seed": 123,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\truth_informed_seed_123",
+      "position_rmse_m": 7.333,
+      "velocity_rmse_mps": 0.001427,
+      "mean_nis": 2.474,
+      "tca_mae_s": 1.659,
+      "miss_mae_m": 0.542,
+      "runtime_seconds": 48.866364699999394
+    },
+    {
+      "mode": "sensor-only",
+      "seed": 7,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\sensor_only_seed_7",
+      "position_rmse_m": 15.974,
+      "velocity_rmse_mps": 0.176532,
+      "mean_nis": 2.023,
+      "tca_mae_s": 12.537,
+      "miss_mae_m": 15.225,
+      "runtime_seconds": 39.42433129999972
+    },
+    {
+      "mode": "sensor-only",
+      "seed": 21,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\sensor_only_seed_21",
+      "position_rmse_m": 13.808,
+      "velocity_rmse_mps": 0.146478,
+      "mean_nis": 2.249,
+      "tca_mae_s": 9.171,
+      "miss_mae_m": 18.214,
+      "runtime_seconds": 28.362173900000016
+    },
+    {
+      "mode": "sensor-only",
+      "seed": 42,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\sensor_only_seed_42",
+      "position_rmse_m": 11.658,
+      "velocity_rmse_mps": 0.158193,
+      "mean_nis": 2.394,
+      "tca_mae_s": 12.683,
+      "miss_mae_m": 15.931,
+      "runtime_seconds": 28.820190899999943
+    },
+    {
+      "mode": "sensor-only",
+      "seed": 99,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\sensor_only_seed_99",
+      "position_rmse_m": 15.775,
+      "velocity_rmse_mps": 0.207166,
+      "mean_nis": 2.909,
+      "tca_mae_s": 15.024,
+      "miss_mae_m": 24.657,
+      "runtime_seconds": 28.848747000000003
+    },
+    {
+      "mode": "sensor-only",
+      "seed": 123,
+      "status": "ok",
+      "output_directory": "C:\\Users\\abhis\\Downloads\\satellite collision avoidance - Copy\\experiments\\ekf_monte_carlo_20261027T130930Z\\sensor_only_seed_123",
+      "position_rmse_m": 13.905,
+      "velocity_rmse_mps": 0.227241,
+      "mean_nis": 2.315,
+      "tca_mae_s": 13.902,
+      "miss_mae_m": 20.341,
+      "runtime_seconds": 27.836758000000373
+    }
+  ],
+  "summary": {
+    "truth-informed": {
+      "position_rmse_m": {
+        "n": 5,
+        "mean": 8.756,
+        "standard_deviation": 1.5768476464135652,
+        "ci95_low": 6.798085046795934,
+        "ci95_high": 10.713914953204066
+      },
+      "velocity_rmse_mps": {
+        "n": 5,
+        "mean": 0.0018446,
+        "standard_deviation": 0.0007983472302200339,
+        "ci95_low": 0.0008533209861700899,
+        "ci95_high": 0.0028358790138299102
+      },
+      "mean_nis": {
+        "n": 5,
+        "mean": 2.457,
+        "standard_deviation": 0.21353336975751597,
+        "ci95_low": 2.191863302356959,
+        "ci95_high": 2.7221366976430406
+      },
+      "tca_mae_s": {
+        "n": 5,
+        "mean": 1.4148,
+        "standard_deviation": 0.5047090250827698,
+        "ci95_low": 0.7881209739862031,
+        "ci95_high": 2.041479026013797
+      },
+      "miss_mae_m": {
+        "n": 5,
+        "mean": 2.5039999999999996,
+        "standard_deviation": 2.9467174109507006,
+        "ci95_low": -1.1548329220576985,
+        "ci95_high": 6.162832922057698
+      }
+    },
+    "sensor-only": {
+      "position_rmse_m": {
+        "n": 5,
+        "mean": 14.223999999999998,
+        "standard_deviation": 1.7555108942982955,
+        "ci95_low": 12.044245324095307,
+        "ci95_high": 16.40375467590469
+      },
+      "velocity_rmse_mps": {
+        "n": 5,
+        "mean": 0.183122,
+        "standard_deviation": 0.03366105306582074,
+        "ci95_low": 0.14132628226654387,
+        "ci95_high": 0.22491771773345615
+      },
+      "mean_nis": {
+        "n": 5,
+        "mean": 2.3779999999999997,
+        "standard_deviation": 0.3274339628077697,
+        "ci95_low": 1.971437036592401,
+        "ci95_high": 2.7845629634075983
+      },
+      "tca_mae_s": {
+        "n": 5,
+        "mean": 12.6634,
+        "standard_deviation": 2.1977136528674523,
+        "ci95_low": 9.934578078873594,
+        "ci95_high": 15.392221921126405
+      },
+      "miss_mae_m": {
+        "n": 5,
+        "mean": 18.8736,
+        "standard_deviation": 3.808123790004732,
+        "ci95_low": 14.145189789247844,
+        "ci95_high": 23.602010210752155
+      }
+    }
+  }
+}

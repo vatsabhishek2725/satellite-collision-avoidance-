@@ -1,0 +1,155 @@
+
+====================================================================================================
+       ORBITAL COLLISION FORECAST � EKF ESTIMATE + TWO-BODY PROPAGATION
+====================================================================================================
+
+Simulation duration : 600.0 s
+Propagation step    : 2.0 s
+Forecast checkpoints: 61
+Collision radius    : 10.0 m
+
+[1] FORWARD PREDICTIONS
+----------------------------------------------------------------------------------------------------
+ Epoch (s) | Horizon (s) |    TCA (s) |     Miss (m) |   Sigma (m) | Screening                                    
+----------------------------------------------------------------------------------------------------
+       0.0 |       600.0 |      590.0 |       83.396 |      18.527 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      10.0 |       590.0 |      568.0 |       65.511 |      13.141 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      20.0 |       580.0 |      548.0 |       71.635 |      10.898 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      30.0 |       570.0 |      540.0 |       69.021 |       9.435 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      40.0 |       560.0 |      524.0 |       74.815 |       8.503 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      50.0 |       550.0 |      520.0 |       73.879 |       7.736 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      60.0 |       540.0 |      512.0 |       77.880 |       7.170 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      70.0 |       530.0 |      500.0 |       76.746 |       6.694 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      80.0 |       520.0 |      492.0 |       77.521 |       6.267 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+      90.0 |       510.0 |      480.0 |       74.194 |       5.960 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     100.0 |       500.0 |      468.0 |       73.162 |       5.707 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     110.0 |       490.0 |      458.0 |       72.119 |       5.484 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     120.0 |       480.0 |      448.0 |       71.668 |       5.231 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     130.0 |       470.0 |      438.0 |       72.907 |       5.045 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     140.0 |       460.0 |      428.0 |       73.826 |       4.901 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     150.0 |       450.0 |      418.0 |       73.933 |       4.698 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     160.0 |       440.0 |      406.0 |       73.959 |       4.618 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     170.0 |       430.0 |      398.0 |       73.118 |       4.458 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     180.0 |       420.0 |      386.0 |       71.756 |       4.358 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     190.0 |       410.0 |      376.0 |       72.214 |       4.249 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     200.0 |       400.0 |      366.0 |       73.095 |       4.148 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     210.0 |       390.0 |      358.0 |       73.914 |       4.007 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     220.0 |       380.0 |      348.0 |       74.086 |       3.919 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     230.0 |       370.0 |      336.0 |       74.459 |       3.881 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     240.0 |       360.0 |      326.0 |       74.059 |       3.801 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     250.0 |       350.0 |      318.0 |       74.097 |       3.683 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     260.0 |       340.0 |      306.0 |       74.299 |       3.658 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     270.0 |       330.0 |      298.0 |       75.142 |       3.560 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     280.0 |       320.0 |      288.0 |       74.737 |       3.496 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     290.0 |       310.0 |      278.0 |       74.242 |       3.442 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     300.0 |       300.0 |      268.0 |       75.458 |       3.395 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     310.0 |       290.0 |      258.0 |       76.113 |       3.350 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     320.0 |       280.0 |      248.0 |       76.892 |       3.297 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     330.0 |       270.0 |      238.0 |       76.077 |       3.230 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     340.0 |       260.0 |      228.0 |       76.369 |       3.195 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     350.0 |       250.0 |      218.0 |       77.666 |       3.140 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     360.0 |       240.0 |      208.0 |       77.471 |       3.110 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     370.0 |       230.0 |      198.0 |       77.950 |       3.074 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     380.0 |       220.0 |      188.0 |       78.004 |       3.034 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     390.0 |       210.0 |      178.0 |       78.241 |       2.989 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     400.0 |       200.0 |      168.0 |       78.133 |       2.947 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     410.0 |       190.0 |      158.0 |       78.094 |       2.920 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     420.0 |       180.0 |      148.0 |       77.931 |       2.892 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     430.0 |       170.0 |      138.0 |       78.437 |       2.855 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     440.0 |       160.0 |      128.0 |       78.808 |       2.824 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     450.0 |       150.0 |      118.0 |       78.715 |       2.784 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     460.0 |       140.0 |      108.0 |       78.099 |       2.752 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     470.0 |       130.0 |       98.0 |       77.752 |       2.722 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     480.0 |       120.0 |       88.0 |       77.726 |       2.697 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     490.0 |       110.0 |       76.0 |       78.121 |       2.694 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     500.0 |       100.0 |       66.0 |       77.887 |       2.667 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     510.0 |        90.0 |       58.0 |       78.043 |       2.621 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     520.0 |        80.0 |       46.0 |       77.392 |       2.617 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     530.0 |        70.0 |       36.0 |       77.162 |       2.595 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     540.0 |        60.0 |       26.0 |       77.104 |       2.570 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     550.0 |        50.0 |       16.0 |       76.851 |       2.546 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     560.0 |        40.0 |        6.0 |       76.955 |       2.525 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     570.0 |        30.0 |        0.0 |       77.354 |       2.464 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     580.0 |        20.0 |        0.0 |       80.006 |       2.379 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     590.0 |        10.0 |        0.0 |       86.179 |       2.350 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     600.0 |         0.0 |        0.0 |       94.285 |       2.363 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+
+[2] OFFLINE EVALUATION AGAINST ORBITZOO
+----------------------------------------------------------------------------------------------------
+ Epoch (s) | Pred TCA (s) | Actual TCA (s) | Pred Miss (m) | Actual Miss (m) | TCA Error (s)
+----------------------------------------------------------------------------------------------------
+       0.0 |        590.0 |          566.0 |        83.396 |         76.748 |          24.0
+      10.0 |        568.0 |          556.0 |        65.511 |         76.748 |          12.0
+      20.0 |        548.0 |          546.0 |        71.635 |         76.748 |           2.0
+      30.0 |        540.0 |          536.0 |        69.021 |         76.748 |           4.0
+      40.0 |        524.0 |          526.0 |        74.815 |         76.748 |           2.0
+      50.0 |        520.0 |          516.0 |        73.879 |         76.748 |           4.0
+      60.0 |        512.0 |          506.0 |        77.880 |         76.748 |           6.0
+      70.0 |        500.0 |          496.0 |        76.746 |         76.748 |           4.0
+      80.0 |        492.0 |          486.0 |        77.521 |         76.748 |           6.0
+      90.0 |        480.0 |          476.0 |        74.194 |         76.748 |           4.0
+     100.0 |        468.0 |          466.0 |        73.162 |         76.748 |           2.0
+     110.0 |        458.0 |          456.0 |        72.119 |         76.748 |           2.0
+     120.0 |        448.0 |          446.0 |        71.668 |         76.748 |           2.0
+     130.0 |        438.0 |          436.0 |        72.907 |         76.748 |           2.0
+     140.0 |        428.0 |          426.0 |        73.826 |         76.748 |           2.0
+     150.0 |        418.0 |          416.0 |        73.933 |         76.748 |           2.0
+     160.0 |        406.0 |          406.0 |        73.959 |         76.748 |           0.0
+     170.0 |        398.0 |          396.0 |        73.118 |         76.748 |           2.0
+     180.0 |        386.0 |          386.0 |        71.756 |         76.748 |           0.0
+     190.0 |        376.0 |          376.0 |        72.214 |         76.748 |           0.0
+     200.0 |        366.0 |          366.0 |        73.095 |         76.748 |           0.0
+     210.0 |        358.0 |          356.0 |        73.914 |         76.748 |           2.0
+     220.0 |        348.0 |          346.0 |        74.086 |         76.748 |           2.0
+     230.0 |        336.0 |          336.0 |        74.459 |         76.748 |           0.0
+     240.0 |        326.0 |          326.0 |        74.059 |         76.748 |           0.0
+     250.0 |        318.0 |          316.0 |        74.097 |         76.748 |           2.0
+     260.0 |        306.0 |          306.0 |        74.299 |         76.748 |           0.0
+     270.0 |        298.0 |          296.0 |        75.142 |         76.748 |           2.0
+     280.0 |        288.0 |          286.0 |        74.737 |         76.748 |           2.0
+     290.0 |        278.0 |          276.0 |        74.242 |         76.748 |           2.0
+     300.0 |        268.0 |          266.0 |        75.458 |         76.748 |           2.0
+     310.0 |        258.0 |          256.0 |        76.113 |         76.748 |           2.0
+     320.0 |        248.0 |          246.0 |        76.892 |         76.748 |           2.0
+     330.0 |        238.0 |          236.0 |        76.077 |         76.748 |           2.0
+     340.0 |        228.0 |          226.0 |        76.369 |         76.748 |           2.0
+     350.0 |        218.0 |          216.0 |        77.666 |         76.748 |           2.0
+     360.0 |        208.0 |          206.0 |        77.471 |         76.748 |           2.0
+     370.0 |        198.0 |          196.0 |        77.950 |         76.748 |           2.0
+     380.0 |        188.0 |          186.0 |        78.004 |         76.748 |           2.0
+     390.0 |        178.0 |          176.0 |        78.241 |         76.748 |           2.0
+     400.0 |        168.0 |          166.0 |        78.133 |         76.748 |           2.0
+     410.0 |        158.0 |          156.0 |        78.094 |         76.748 |           2.0
+     420.0 |        148.0 |          146.0 |        77.931 |         76.748 |           2.0
+     430.0 |        138.0 |          136.0 |        78.437 |         76.748 |           2.0
+     440.0 |        128.0 |          126.0 |        78.808 |         76.748 |           2.0
+     450.0 |        118.0 |          116.0 |        78.715 |         76.748 |           2.0
+     460.0 |        108.0 |          106.0 |        78.099 |         76.748 |           2.0
+     470.0 |         98.0 |           96.0 |        77.752 |         76.748 |           2.0
+     480.0 |         88.0 |           86.0 |        77.726 |         76.748 |           2.0
+     490.0 |         76.0 |           76.0 |        78.121 |         76.748 |           0.0
+     500.0 |         66.0 |           66.0 |        77.887 |         76.748 |           0.0
+     510.0 |         58.0 |           56.0 |        78.043 |         76.748 |           2.0
+     520.0 |         46.0 |           46.0 |        77.392 |         76.748 |           0.0
+     530.0 |         36.0 |           36.0 |        77.162 |         76.748 |           0.0
+     540.0 |         26.0 |           26.0 |        77.104 |         76.748 |           0.0
+     550.0 |         16.0 |           16.0 |        76.851 |         76.748 |           0.0
+     560.0 |          6.0 |            6.0 |        76.955 |         76.748 |           0.0
+     570.0 |          0.0 |            0.0 |        77.354 |         76.956 |           0.0
+     580.0 |          0.0 |            0.0 |        80.006 |         79.810 |           0.0
+     590.0 |          0.0 |            0.0 |        86.179 |         85.689 |           0.0
+     600.0 |          0.0 |            0.0 |        94.285 |         94.029 |           0.0
+
+[3] AGGREGATED OFFLINE ERRORS
+----------------------------------------------------------------------------------------------------
+  Evaluation start time    : 200.0 s
+  Evaluated checkpoints    : 41
+  Mean absolute TCA error : 1.268 s
+  Mean absolute miss error: 1.315 m
+
+====================================================================================================
+NOTE: Screening is not a formal collision probability.
+Ground truth is used only for offline evaluation.
+====================================================================================================
+
+--- STDERR ---

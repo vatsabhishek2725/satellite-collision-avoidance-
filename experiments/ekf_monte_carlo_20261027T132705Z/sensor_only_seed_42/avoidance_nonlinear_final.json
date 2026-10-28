@@ -1,0 +1,56 @@
+{
+  "configuration": {
+    "seed": 42,
+    "initialization_mode": "sensor-only",
+    "decision_epoch_seconds": 400.0,
+    "simulation_end_seconds": 600.0,
+    "collision_radius_m": 10.0,
+    "minimum_miss_distance_m": 100.0,
+    "sigma_multiplier": 3.0,
+    "target_miss_distance_m": 595.6270375738288,
+    "estimated_range_at_decision_m": 277.43315676567073,
+    "risk_screening": "target = max(minimum miss distance, collision radius + sigma multiplier * propagated radial miss sigma); heuristic only",
+    "max_delta_v_mps": 5.0
+  },
+  "forecast_before_maneuver": {
+    "tca_seconds": 160.0,
+    "miss_distance_m": 84.57837300264947,
+    "miss_sigma_m": 195.20901252460962,
+    "risk_indicator": "POTENTIAL ENCOUNTER \u2014 NEEDS FURTHER ANALYSIS"
+  },
+  "maneuver_plan": {
+    "feasible_with_delta_v_limit": false,
+    "infeasibility_reason": "Target exceeds estimated range at decision epoch; the future minimum includes the current separation.",
+    "required_delta_v_mps": null,
+    "commanded_delta_v_mps": 5.0,
+    "planning_model": "two-body grid search",
+    "commanded_delta_v_inertial_mps": [
+      4.963280449094307,
+      -0.5477388687058146,
+      0.2565722419652922
+    ],
+    "commanded_delta_v_rsw_mps": [
+      -1.0573221426500536,
+      4.8801885794828515,
+      -0.25657224196521244
+    ],
+    "thrust_rsw_newtons": [
+      -2.6426316158020713,
+      12.19736172260038,
+      -0.6412671134032029
+    ],
+    "linear_predicted_post_maneuver_miss_m": 884.5783730026495,
+    "two_body_predicted_post_maneuver_miss_m": 277.40463526166343
+  },
+  "no_maneuver": {
+    "actual_tca_seconds_after_decision": 166.0,
+    "actual_miss_distance_m": 76.74817403867571
+  },
+  "maneuver": {
+    "actual_tca_seconds_after_decision": 4.0,
+    "actual_miss_distance_m": 281.00204869011617,
+    "fuel_consumed_kg": 0.002548640754659104,
+    "target_achieved": false,
+    "success": false
+  }
+}

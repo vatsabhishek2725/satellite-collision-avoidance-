@@ -1,0 +1,11 @@
+mode,seed,status,position_rmse_m,velocity_rmse_mps,mean_nis,tca_mae_s,miss_mae_m,runtime_seconds,error,output_directory
+truth-informed,7,ok,8.066,0.003718,2.559,0.857,7.003,32.211067600001115,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\truth_informed_seed_7
+truth-informed,21,ok,2.781,0.00146,2.161,0.952,0.944,33.24006709999958,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\truth_informed_seed_21
+truth-informed,42,ok,3.167,0.002132,3.039,1.524,0.637,29.2380174000009,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\truth_informed_seed_42
+truth-informed,99,ok,4.527,0.002798,3.302,1.048,2.142,30.919127799999842,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\truth_informed_seed_99
+truth-informed,123,ok,3.99,0.002056,1.839,1.619,0.585,28.387746500000503,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\truth_informed_seed_123
+sensor-only,7,ok,20.79,0.142226,2.087,5.619,12.146,24.004827900000237,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\sensor_only_seed_7
+sensor-only,21,ok,17.257,0.151098,2.02,7.619,9.151,23.47150949999923,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\sensor_only_seed_21
+sensor-only,42,ok,14.145,0.137984,3.061,6.19,11.705,24.7634395999994,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\sensor_only_seed_42
+sensor-only,99,ok,20.274,0.14906,2.933,10.0,14.075,24.68873910000002,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\sensor_only_seed_99
+sensor-only,123,ok,14.166,0.147872,1.847,5.048,8.38,25.015018600000985,,C:\Users\abhis\Downloads\satellite collision avoidance - Copy\experiments\ekf_monte_carlo_20261027T132705Z\sensor_only_seed_123

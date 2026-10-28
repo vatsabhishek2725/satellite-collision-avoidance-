@@ -1,0 +1,75 @@
+
+====================================================================================================
+       ORBITAL COLLISION FORECAST � EKF ESTIMATE + TWO-BODY PROPAGATION
+====================================================================================================
+
+Simulation duration : 600.0 s
+Propagation step    : 2.0 s
+Forecast checkpoints: 21
+Collision radius    : 10.0 m
+
+[1] FORWARD PREDICTIONS
+----------------------------------------------------------------------------------------------------
+ Epoch (s) | Horizon (s) |    TCA (s) |     Miss (m) |   Sigma (m) | Screening                                    
+----------------------------------------------------------------------------------------------------
+     400.0 |       200.0 |      160.0 |       84.521 |     199.819 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     410.0 |       190.0 |      178.0 |       39.130 |      56.044 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     420.0 |       180.0 |      144.0 |       34.900 |      43.261 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     430.0 |       170.0 |      128.0 |       72.330 |      37.817 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     440.0 |       160.0 |      118.0 |       75.926 |      34.505 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     450.0 |       150.0 |      110.0 |       88.725 |      31.693 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     460.0 |       140.0 |      130.0 |       69.130 |      34.769 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     470.0 |       130.0 |       94.0 |       83.355 |      26.407 | POTENTIAL ENCOUNTER � NEEDS FURTHER ANALYSIS 
+     480.0 |       120.0 |       78.0 |       91.841 |      22.492 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     490.0 |       110.0 |       74.0 |       93.482 |      20.908 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     500.0 |       100.0 |       58.0 |       91.385 |      17.653 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     510.0 |        90.0 |       48.0 |       92.080 |      15.610 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     520.0 |        80.0 |       44.0 |       89.652 |      14.538 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     530.0 |        70.0 |       28.0 |       92.999 |      12.248 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     540.0 |        60.0 |       22.0 |       78.599 |      11.288 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     550.0 |        50.0 |       12.0 |       83.096 |      10.073 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     560.0 |        40.0 |        4.0 |       82.438 |       9.189 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     570.0 |        30.0 |        0.0 |       80.401 |       8.713 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     580.0 |        20.0 |        0.0 |       87.898 |       8.556 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     590.0 |        10.0 |        0.0 |       92.639 |       8.402 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+     600.0 |         0.0 |        0.0 |       95.939 |       8.252 | LOWER UNCERTAINTY BOUND ABOVE RADIUS         
+
+[2] OFFLINE EVALUATION AGAINST ORBITZOO
+----------------------------------------------------------------------------------------------------
+ Epoch (s) | Pred TCA (s) | Actual TCA (s) | Pred Miss (m) | Actual Miss (m) | TCA Error (s)
+----------------------------------------------------------------------------------------------------
+     400.0 |        160.0 |          166.0 |        84.521 |         76.748 |           6.0
+     410.0 |        178.0 |          156.0 |        39.130 |         76.748 |          22.0
+     420.0 |        144.0 |          146.0 |        34.900 |         76.748 |           2.0
+     430.0 |        128.0 |          136.0 |        72.330 |         76.748 |           8.0
+     440.0 |        118.0 |          126.0 |        75.926 |         76.748 |           8.0
+     450.0 |        110.0 |          116.0 |        88.725 |         76.748 |           6.0
+     460.0 |        130.0 |          106.0 |        69.130 |         76.748 |          24.0
+     470.0 |         94.0 |           96.0 |        83.355 |         76.748 |           2.0
+     480.0 |         78.0 |           86.0 |        91.841 |         76.748 |           8.0
+     490.0 |         74.0 |           76.0 |        93.482 |         76.748 |           2.0
+     500.0 |         58.0 |           66.0 |        91.385 |         76.748 |           8.0
+     510.0 |         48.0 |           56.0 |        92.080 |         76.748 |           8.0
+     520.0 |         44.0 |           46.0 |        89.652 |         76.748 |           2.0
+     530.0 |         28.0 |           36.0 |        92.999 |         76.748 |           8.0
+     540.0 |         22.0 |           26.0 |        78.599 |         76.748 |           4.0
+     550.0 |         12.0 |           16.0 |        83.096 |         76.748 |           4.0
+     560.0 |          4.0 |            6.0 |        82.438 |         76.748 |           2.0
+     570.0 |          0.0 |            0.0 |        80.401 |         76.956 |           0.0
+     580.0 |          0.0 |            0.0 |        87.898 |         79.810 |           0.0
+     590.0 |          0.0 |            0.0 |        92.639 |         85.689 |           0.0
+     600.0 |          0.0 |            0.0 |        95.939 |         94.029 |           0.0
+
+[3] AGGREGATED OFFLINE ERRORS
+----------------------------------------------------------------------------------------------------
+  Evaluation start time    : 400.0 s
+  Evaluated checkpoints    : 21
+  Mean absolute TCA error : 5.905 s
+  Mean absolute miss error: 11.615 m
+
+====================================================================================================
+NOTE: Screening is not a formal collision probability.
+Ground truth is used only for offline evaluation.
+====================================================================================================
+
+--- STDERR ---
