@@ -1,0 +1,34 @@
+# OrbitZoo Python dependencies — pip-installable (no conda required)
+#
+# For a local install (including the bundled Orekit data), run from this
+# directory:
+#
+#     python -m pip install -e .
+#     orbitzoo-demo
+
+# --- Orekit (dynamics engine) + Java runtime ---
+# orekit_jpype is the pip-installable (JPype) build of Orekit, replacing the
+# conda-only classic `orekit`. It needs a JVM: jdk4py ships one as a wheel so no
+# manual Java install is required. (If you already have a system JDK 11+ with
+# JAVA_HOME set, jdk4py is optional and that JDK is used instead.)
+orekit_jpype>=12.2,<13
+jdk4py
+
+# --- Core simulation / RL ---
+numpy==1.24.4
+pettingzoo==1.24.3
+optuna
+tensorboardX
+
+# --- Deep learning ---
+torch==2.4.1
+
+# --- Dynamics (Tensorgator) ---
+scipy
+numba
+
+# --- Interface / rendering ---
+pygame==2.6.0
+play3d==0.1.5
+trimesh
+matplotlib
